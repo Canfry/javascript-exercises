@@ -21,12 +21,13 @@
     "eslint-plugin-import": "^2.22.1"
   },
   "scripts": {
-    "test": "jest"
+    "test": "jest",
+    "start": "node 03_reverseString/reverseString.js"
   },
   "eslintConfig": {
     "root": true
   },
-   "jest": {
+  "jest": {
     "testPathIgnorePatterns": [
       "generator-exercise/"
     ]
