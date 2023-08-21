@@ -3,6 +3,12 @@ const repeatString = function (str, num) {
   for (let i = 0; i < num; i++) {
     result += str;
   }
+  if (num < 0) {
+    return 'ERROR';
+  }
+  if ((str = '')) {
+    return '';
+  }
   return result;
 };
 
